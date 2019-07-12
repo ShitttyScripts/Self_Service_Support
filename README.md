@@ -11,8 +11,6 @@ I made this!
 
 You made this? 
 
-I made this!
-
 .
 
 ..
