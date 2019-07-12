@@ -21,8 +21,6 @@ $ExcludeAccountOne = "C:\Users\username"
 $ExcludeAccountTwo = "C:\Users\username"
 $ExcludeAccountTwo = "C:\Users\username"
 #
-# Add account exclusion to script by modifying and adding this snippet to the end of the script prior to the last pipe
-#                      -and ($_.LocalPath -notcontains "$ExcludeAccountOne")
 ############################################################################################
 
 # Get user profiles - Where - not a special account, not currently logged in, last login over $AccountAgeOver days ago, and user is not LTS_Support, MGT_Support, or vmadmin
