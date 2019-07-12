@@ -1,13 +1,14 @@
 ﻿
 ############################################################################################
 # Remove users not accessed in 30 days or over
-# Greg Knackstedt
-# 
-# 7.11.2017
+# Created by: Greg Knackstedt
+# Date: 7.11.2017
+############################################################################################
 #
-# This script will identify and remove all users inactive for 30+ days. Excluding accounts defined below
-# Verified working w/Powershell 2.0 on 7.11.2019
+# This script will identify and remove all users inactive for 30+ days. Excluding accounts defined using declarations below.
 #
+############################################################################################
+######################### Verified compatable with Powershell 2.0 ##########################
 ############################################################################################
 #
 # Set maximum last login date for user profile.
